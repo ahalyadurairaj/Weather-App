@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight:bolder;
+    text-align: center;
+}
+body{
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+
+}
+.main_div{
+    background-color: rgb(181, 181, 212);
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-top: 20px;
+   
+}
+.container{
+     width: 25%;
+     background-image: linear-gradient(rgb(110, 190, 107), rgb(148, 182, 169));
+     display: flex;
+     /* justify-content: center;
+     align-items: center; */
+     flex-direction: column;
+     height:500px;
+     border-radius: 20px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-style:groove;
+     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;    
+    }
+.search{
+    padding: 5px;
+    border-radius: 10px;
+}
+#input_box{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+}
+#city_name{
+    padding-top: 20px;
+    
+   
+}
+#celcius{
+   
+    padding-top: 30px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+   
+}
+.background_img1{
+    /* width: 130%; */
+    background-image: url("Bg-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.background_img2{
+    background-image: url("Bg-2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.background_img3{
+    background-image: url("Bg-3.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#humidity_wind{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    padding-top: 140px;
+    gap: 100px;
+    
+}
+#hty{
+    margin-left: 5px;
+    width: 80%;
+}
+#wnd{
+    width: 80%;
+}
+#pics{
+    /* margin-top: 120px; */
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+}
+
+#wind_speed{
+    display: flex;
+    gap: 5px;
+}
+#humty{
+    display: flex;
+    gap: 5px; 
+}
+.cls{
+    background-color: black;
+}
